@@ -1,0 +1,59 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  color: #454f5d;
+  text-decoration: none;
+}
+
+/* Till Mobile Screens */
+@media (max-width: 480px) {
+  .onlyDesktop {
+    display: none !important;
+  }
+}
+
+/* Till Tablet Screens */
+@media (max-width: 839px) {
+  .onlyDesktop {
+    display: none !important;
+  }
+
+  .desk-only-break {
+    display: none;
+  }
+}
+
+/* Till Desktop Screens */
+@media (max-width: 1024px) {
+}
+
+/* Bigger than desktops */
+@media (min-width: 1024px) {
+}
+
+/* Bigger than tablets */
+@media (min-width: 839px) {
+}
+
+/* Bigger than mobiles */
+@media (min-width: 480px) {
+  .onlyMobile {
+    display: none !important;
+  }
+
+  .mobile-only-break {
+    display: none;
+  }
+}
